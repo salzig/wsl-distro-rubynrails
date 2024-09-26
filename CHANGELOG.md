@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/salzig/wsl-distro-rubynrails/compare/v1.0.0...v1.1.0) (2024-09-26)
+
+
+### Features
+
+* add vim and nano ([cbcedfa](https://github.com/salzig/wsl-distro-rubynrails/commit/cbcedfa302a4ea7791d4a36a6a2dac2c54fedc65))
+
 # 1.0.0 (2024-09-26)
 
 
