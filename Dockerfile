@@ -5,7 +5,7 @@ ARG defaultpassword=love
 ARG hostname=rubynrails
 
 RUN apt-get update
-RUN apt-get install -y curl git sudo vim nano
+RUN apt-get install -y curl git sudo vim nano htop
 RUN apt clean
 RUN adduser $defaultuser
 RUN adduser $defaultuser sudo
