@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/salzig/wsl-distro-rubynrails/compare/v1.1.0...v1.2.0) (2024-09-26)
+
+
+### Features
+
+* everyone likes htop, right? ([957a870](https://github.com/salzig/wsl-distro-rubynrails/commit/957a87024ac7c6aedd6729350ddbd8562185bd38))
+
 # [1.1.0](https://github.com/salzig/wsl-distro-rubynrails/compare/v1.0.0...v1.1.0) (2024-09-26)
 
 
