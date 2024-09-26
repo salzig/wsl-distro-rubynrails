@@ -7,8 +7,9 @@ ARG hostname=rubynrails
 RUN apt-get update
 RUN apt-get install -y curl git
 RUN apt clean
-RUN adduser $defaultuser && echo "[user]\ndefault=$defaultuser\nhostname=$hostname" >> /etc/wsl.conf
+RUN adduser $defaultuser
 RUN echo "${defaultuser}:${defaultpassword}" | chpasswd
+RUN echo "[user]\ndefault=$defaultuser\nhostname=$hostname" >> /etc/wsl.conf
 
 # Install asdf
 ARG ASDF_VERSION=v0.14.1
