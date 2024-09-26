@@ -4,10 +4,12 @@ module.exports = {
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    "@semantic-release/github",
+    [
+      "@semantic-release/github",
+      {
+        assets: [{ path: "wsl-distro-rubynrails.tar" }],
+      },
+    ],
     "@semantic-release/git",
   ],
-  github: {
-    assets: [{ path: "wsl-distro-rubynrails.tar" }],
-  },
 };
