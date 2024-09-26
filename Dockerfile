@@ -1,6 +1,6 @@
 FROM ubuntu:24.04
 
-ARG defaultuser=rubynrails
+ARG defaultuser=me
 ARG defaultpassword=love
 ARG hostname=rubynrails
 
