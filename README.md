@@ -27,7 +27,7 @@ Default user is `me` with a password of `love`, which you need to run commands a
 
 ## Todos
 
-- Use Pipeline to publish WSL-Distro as downloadable Tarball
+- Anything missing?
 
 ## Helpful Microsoft Knowledge Base Articles
 - [WSL2 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install)
