@@ -6,6 +6,8 @@ This is a WSL Distro for Ruby'n'Rails (Ruby and RubyOnRails) development. It is 
 * [NodeJS](https://nodejs.org/)
 * [RubyOnRails](https://rubyonrails.org/)
 
+![Preview of rubynrails WSL](/.github/assets/preview.png?raw=true)
+
 ## Copy & Paste setup
 
 
