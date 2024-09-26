@@ -6,7 +6,7 @@ This is a WSL Distro for Ruby'n'Rails (Ruby and RubyOnRails) development. It is 
 * [NodeJS](https://nodejs.org/)
 * [RubyOnRails](https://rubyonrails.org/)
 
-## Copy & Paste
+## Copy & Paste setup
 ```
 # Install WSL2
 wsl --install
@@ -16,10 +16,10 @@ docker build -o type=tar,dest=rubynrails.tar .
 wsl --import RubynRails C:\WSL\rubynrails .\rubynrails.tar
 ```
 
+Default user is `me` with a password of `love`, which you need to run commands as root (using sudo).
+
 ## Todos
 
-- Support sudo
-- Set rubynrails user password
 - Add useful Editors (vim, nano, ?)
 - Use Pipeline to publish WSL-Distro as downloadable Tarball
 
