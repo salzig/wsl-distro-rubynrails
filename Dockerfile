@@ -2,11 +2,12 @@ FROM ubuntu:24.04
 
 ARG defaultuser=rubynrails
 ARG defaultpassword=love
+ARG hostname=rubynrails
 
 RUN apt-get update
 RUN apt-get install -y curl git
 RUN apt clean
-RUN adduser $defaultuser && echo "[user]\ndefault=$defaultuser" >> /etc/wsl.conf
+RUN adduser $defaultuser && echo "[user]\ndefault=$defaultuser\nhostname=$hostname" >> /etc/wsl.conf
 RUN echo "${defaultuser}:${defaultpassword}" | chpasswd
 
 # Install asdf
