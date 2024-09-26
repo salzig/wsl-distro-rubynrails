@@ -20,7 +20,6 @@ Default user is `me` with a password of `love`, which you need to run commands a
 
 ## Todos
 
-- Add useful Editors (vim, nano, ?)
 - Use Pipeline to publish WSL-Distro as downloadable Tarball
 
 ## Helpful Microsoft Knowledge Base Articles
