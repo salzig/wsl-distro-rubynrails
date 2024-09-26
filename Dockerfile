@@ -5,9 +5,10 @@ ARG defaultpassword=love
 ARG hostname=rubynrails
 
 RUN apt-get update
-RUN apt-get install -y curl git
+RUN apt-get install -y curl git sudo
 RUN apt clean
 RUN adduser $defaultuser
+RUN adduser $defaultuser sudo
 RUN echo "${defaultuser}:${defaultpassword}" | chpasswd
 RUN echo "[user]\ndefault=$defaultuser\nhostname=$hostname" >> /etc/wsl.conf
 
