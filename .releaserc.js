@@ -7,4 +7,7 @@ module.exports = {
     "@semantic-release/github",
     "@semantic-release/git",
   ],
+  github: {
+    assets: [{ path: "wsl-distro-rubynrails.tar" }],
+  },
 };
