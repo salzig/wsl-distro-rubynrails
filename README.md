@@ -15,8 +15,7 @@ This is a WSL Distro for Ruby'n'Rails (Ruby and RubyOnRails) development. It is 
 # Install WSL2
 wsl --install
 # Download the WSL-Distro Tarball
-$version = [io.path]::GetFileName((Invoke-WebRequest "https://github.com/salzig/wsl-distro-rubynrails/releases/latest" -MaximumRedirection 0 -ErrorAction Ignore).Headers.Location)
-curl "https://github.com/salzig/wsl-distro-rubynrails/releases/download/$version/wsl-distro-rubynrails.tar" -OutFile wsl-distro-rubynrails.tar
+curl "https://github.com/salzig/wsl-distro-rubynrails/releases/download/v1.2.0/wsl-distro-rubynrails.tar" -OutFile wsl-distro-rubynrails.tar
 # Import Tarball as WSL-Distro
 wsl --import RubynRails .\rubynrails wsl-distro-rubynrails.tar
 # Cleanup temporary file
