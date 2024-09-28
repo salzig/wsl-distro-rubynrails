@@ -12,11 +12,16 @@ module.exports = {
       },
     ],
     [
+      "@semantic-release/git",
+      {
+        assets: ["README.md"],
+      },
+    ],
+    [
       "@semantic-release/github",
       {
         assets: [{ path: "wsl-distro-rubynrails.tar" }],
       },
     ],
-    "@semantic-release/git",
   ],
 };
