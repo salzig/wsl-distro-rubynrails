@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/salzig/wsl-distro-rubynrails/compare/v1.2.0...v1.3.0) (2024-09-28)
+
+
+### Features
+
+* enable man pages ([a3b3c1a](https://github.com/salzig/wsl-distro-rubynrails/commit/a3b3c1a15c913507a90995ae78b84fb6fde5ccd4))
+
 # [1.2.0](https://github.com/salzig/wsl-distro-rubynrails/compare/v1.1.0...v1.2.0) (2024-09-26)
 
 
