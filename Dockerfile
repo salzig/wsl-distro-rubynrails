@@ -5,6 +5,9 @@ ARG defaultpassword=love
 ARG hostname=rubynrails
 
 RUN apt-get update
+RUN rm /etc/dpkg/dpkg.cfg.d/excludes
+RUN apt-get install -y man-db manpages manpages-dev manpages-posix manpages-posix-dev
+RUN mv /usr/bin/man.REAL /usr/bin/man
 RUN apt-get install -y curl git sudo vim nano htop
 RUN apt clean
 RUN adduser $defaultuser
